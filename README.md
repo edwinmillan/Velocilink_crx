@@ -1,4 +1,4 @@
-Velocilink_crx
+Velocilink Chrome Extension
 ==============
 
 Chrome Extension for Velocilink
