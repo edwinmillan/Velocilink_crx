@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Velocilink",
+  "description": "Quickly send a link to your Velocilink account.",
+  "homepage_url": "http://www.velocilink.com/",
+  "version": "1.0",
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://imgur.com/",
+    "http://*.imgur.com/",
+    "http://www.reddit.com/",
+    "http://4chan.org/"
+  ]
+}
