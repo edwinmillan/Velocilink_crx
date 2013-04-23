@@ -5,10 +5,21 @@
   "description": "Quickly send a link to your Velocilink account.",
   "homepage_url": "http://www.velocilink.com/",
   "version": "1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "background":{
+    "persistent": false,
+    "scripts": ["js/jquery-2.0.0.min.js","js/bg.js"]
+  },
 
   "page_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_title": "Velocilink",
+    "default_icon": "icons/icon128.png"
+    //"default_popup": "popup.html"
   },
   "permissions": [
     "tabs",
